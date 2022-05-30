@@ -22,9 +22,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown" >
             <ul class="navbar-nav ml-auto">
-                <!-- <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li> -->
+               
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -32,27 +30,66 @@
                         Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="Visualization/temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="Visualization/humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Visualizations/cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Visualization/wind.html">Wind Speed</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Comparisons</a>
+                    <a class="nav-link" href="Visualization/comparison.html">Comparisons</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Data</a>
+                    <a class="nav-link" href="data.html">Data</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- End of NavBar -->
+    <div class="container content">    
+        <div class="row">
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <h3>Summary: Latitude vs. X </h3>
+                    <hr>
+                    <div class="thumbnail">
+                        <img class="img-thumbnail float-left" src="Resources/assets/images/Fig1.png " width="50%" alt="temperature">
+                    </div>
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, OpenWeatherMap API was
+                        utilized to assemble a dataset on over 500 cities.  </p> 
+                    
+                    <p>Matplotlib was used to build a series of plots to showcase the relationships regarding several variables
+                        of weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                </div>
+            </div>
+            <!--visualization adjustments-->
+            <div class="col-md-4">
+                <div class="col-md-12">
+                    <h3>Visualizations</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3 col-md-6">
+                            <a href="temp.html"><img src="Resources/assets/images/Fig1.png" width="100%"  alt="temperature">
+                            </a> 
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="100%" alt="humidity"></a>
+                        </div>
+                   
+                        <div class="col-3 col-md-6">
+                            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" width="100%"  alt="cloudiness"></a>
+                        </div>
 
-    <!-- Page Specific Code -->
+                        <div class="col-3 col-md-6">
+                            <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png"width="100%"  alt="wind speed"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <!-- End of Page Specific Code -->
 
     <footer class="footer fixed-bottom">
         <div class="two-toned-footer-color"></div>
