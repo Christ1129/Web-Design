@@ -20,3 +20,9 @@ The website consist of 7 pages total, including:
 ![image](https://github.com/Christ1129/Web-Design-Challenge/blob/main/Images/nav-sm.png)
 
 
+<hr>
+Contact : 
+
+* tourteau.christian@gmail.com
+* https://www.linkedin.com/in/christian-tourteau/
+
