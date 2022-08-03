@@ -7,13 +7,13 @@ Dataset was cleaned by using Python and transformed to HTML format.
 ## Data ##
 [Weather data](WebVisualizations/Resources/cities.csv)
 
+![image](https://github.com/Christ1129/Web-Design-Challenge/blob/main/Images/data-lg.png)
+
 ## Tool ##
 Python (Jupyter notebook), HTML, CSS
 
 ## Visualization
 The website consist of 7 pages total, including:
-
-![image](https://github.com/Christ1129/Web-Design-Challenge/blob/main/Images/data-lg.png)
 
 ![image](https://github.com/Christ1129/Web-Design-Challenge/blob/main/Images/comparison-lg.png)
 
