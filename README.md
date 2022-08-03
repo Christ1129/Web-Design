@@ -8,11 +8,8 @@ Python (Jupyter notebook), HTML, CSS
 ## Visualization
 The website consist of 7 pages total, including:
 
-!(https://christ1129.github.io/Web-Design-Challenge/data.html)
+https://github.com/Christ1129/Web-Design-Challenge/blob/main/Images/data-lg.png
 
-!(https://christ1129.github.io/Web-Design-Challenge/)
+!https://github.com/Christ1129/Web-Design-Challenge/blob/main/Images/comparison-lg.png
 
-!(https://christ1129.github.io/Web-Design-Challenge/comparison.html)
-
-!https://christ1129.github.io/Web-Design-Challenge/humidity.html
 
